@@ -1,10 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Nav from './components/nav'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Nav />
+      <Text>Share photos instantaneously, on the line! Instantaneously!</Text>
     </View>
   );
 }
@@ -16,4 +18,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  container1: {
+    flex: 1,
+    backgroundColor: '#000',
+  }
 });
