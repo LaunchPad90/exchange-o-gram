@@ -1,12 +1,18 @@
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import Search from './icons/search';
+import Home from './icons/home';
+import Plus from './icons/plus';
+import Heart from './icons/heart';
+
 
 export default function Nav() {
     return (
         <View style={styles.list}>
-            <TouchableOpacity style={styles.button}><Text style={styles.buttonText}>Home</Text></TouchableOpacity>
-            <TouchableOpacity style={styles.button}><Text style={styles.buttonText}>About</Text></TouchableOpacity>
-            <TouchableOpacity style={styles.button}><Text style={styles.buttonText}>Contact</Text></TouchableOpacity>
+            <Search />
+            <Home />
+            <Plus />
+            <Heart />
         </View>
     )
 }
@@ -25,14 +31,4 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         padding: 4,
     },
-    button: {
-        padding: 10,
-        borderRadius: 5,
-        backgroundColor: 'blue',
-        color: '#eee',
-    },
-    buttonText: {
-        fontSize: 20,
-        color: '#fff',
-    }
 })
