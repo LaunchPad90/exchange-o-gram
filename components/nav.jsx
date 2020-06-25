@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import Search from './icons/search';
-import Home from './icons/home';
-import Plus from './icons/plus';
-import Heart from './icons/heart';
+import Search from '../assets/navBarIcons/search';
+import Home from '../assets/navBarIcons/home';
+import Plus from '../assets/navBarIcons/plus';
+import Heart from '../assets/navBarIcons/heart';
 
 
 export default function Nav() {
